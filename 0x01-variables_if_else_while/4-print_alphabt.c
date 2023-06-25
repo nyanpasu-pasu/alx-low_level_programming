@@ -15,10 +15,9 @@ int main(void)
 		if (ch == 'e' || ch == 'q')
 			ch++;
 		putchar(ch);
-		c++;
+		ch++;
 	}
 	putchar('\n');
 
 	return (0);
 }
-
